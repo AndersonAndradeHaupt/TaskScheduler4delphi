@@ -30,6 +30,7 @@ begin
       begin
         ShowMessage('Executando tarefa às 14:30!');
       end
-    )
+     )
+    .OnDays([Fri])
     .Start;
 end;
