@@ -24,7 +24,7 @@ Veja como agendar uma tarefa para ser executada todos os dias às 14:30:
 ```delphi
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  TTaskScheduler.New
+  FTaskScheduler
     .EveryDayAt('14:30', 
       procedure
       begin
